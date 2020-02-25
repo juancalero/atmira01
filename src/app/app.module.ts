@@ -10,11 +10,17 @@ import { AppComponent } from './app.component';
 import { UserListComponent } from './user-list/user-list.component';
 
 import { UserService } from './user.service';
+import { AddUserComponent } from './add-user/add-user.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { UserAddComponent } from './user-add/user-add.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
+    AddUserComponent,
+    UserInfoComponent,
+    UserAddComponent,
   ],
   imports: [
     BrowserModule,

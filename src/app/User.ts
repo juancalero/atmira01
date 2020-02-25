@@ -1,5 +1,5 @@
 export default class User {
-  id: number;
+  id?: number;
   nombre: String;
   apellidos: String;
   direccion: String;
